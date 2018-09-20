@@ -1,0 +1,27 @@
+{
+  "name": "micro-basic-auth-example",
+  "version": "1.0.0",
+  "description": "Basic auth on micro service using Zeit's micro package",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "keywords": [
+    "micro",
+    "auth",
+    "basicauth",
+    "zeit"
+  ],
+  "author": "Guillermo A. Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "micro": "^9.3.3",
+    "micro-cors": "^0.1.0",
+    "tsscmp": "^1.0.6"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
